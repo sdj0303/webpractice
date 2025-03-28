@@ -1,0 +1,174 @@
+*{
+    font-family: "Noto Sans KR", sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin:0px;
+    padding: 0px;
+    color: #000;
+}
+.intro_bg{
+    /* background-image:url("image/img1-3.png"); */
+    background-color:#F8F8F8;;
+    width:100%;
+    height: 100vh;
+}
+
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    width: 1700px;
+    margin:auto;
+    height: 86px;
+    /* background: #fff; */
+}
+
+.mainlogo img {
+    margin-top: 25px;
+}
+.mainlogo {
+    width: 300px;
+}
+.mainlogo > a > h2 {
+    color: black;
+    /* margin-bottom: 30px; */
+}
+.login {
+    width: 150px;
+    text-align: end;
+    /* background-color: blue; */
+}
+.login > li {
+    margin-left: auto;
+}
+
+.login > li > a {
+    color: black;
+    line-height: 100px;
+    font-size: 18px;
+    /* width: 100px; */
+}
+.mem_info {
+    width: 150px;
+    text-align: end;
+    /* background-color: blue; */
+}
+.mem_info > li {
+    margin-left: auto;
+}
+
+.mem_info > li > a {
+    color: black;
+    line-height: 100px;
+    font-size: 18px;
+    /* width: 100px; */
+}
+
+.nav{
+    display: flex;
+    justify-content:center;
+    line-height: 100px;
+    /* width:calc(1280px - 300px); */
+    width: 980px;
+}
+
+.nav > li{
+    margin-left: 84px;
+}
+
+.nav > li > a {
+    color:black;
+    font-size: 23px;
+    font-weight: 650;
+}
+.middle {
+    display: flex;
+    width: auto;
+    margin:auto;
+    height: 800px;
+    justify-content: center;
+}
+.find_bor{
+    width: 500px;
+    height: 770px;
+    margin-top: 30px;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: #F8F8F8;
+}
+.find_wrapper{
+    height: 800px;
+    width: 500px;
+    padding: 70px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    background-color: white;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background-color: white;
+    /* margin: auto auto auto auto; */
+}
+.find_wrapper > h2{
+    font-size: 40px;
+    color: #6A24FE;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+.id_bor{
+    width: 350px;
+    height: 320px;
+    margin: 20px auto auto auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: white;
+}
+.find_id{
+    width: 300px;
+    height: 250px;
+    margin-left: 20px;
+}
+#id_form > input{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+.pw_bor{
+    width: 350px;
+    height: 230px;
+    margin: 20px auto auto auto;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: white;
+}
+.find_pw{
+    width: 300px;
+    height: 100px;
+    margin-left: 20px;
+}
+#pw_form > input{
+    width: 100%;
+    height: 48px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    margin-bottom: 16px;
+    border-radius: 6px;
+    background-color: #F8F8F8;
+}
+
+#id_form > input[type="submit"],
+#pw_form > input[type="submit"]{
+    color: white;
+    background-color: #6A24FE;
+}
+.find_id > h4,
+.find_pw > h4{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
